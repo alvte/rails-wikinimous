@@ -1,0 +1,9 @@
+<%= render "navbar", task: @articles %>
+
+<div class="container">
+  <h1>
+    Modify article
+  </h1>
+  <%= render "form", task: @articles %>
+  <%= link_to "Back", articles_path %>
+</div>
